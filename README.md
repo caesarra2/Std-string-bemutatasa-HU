@@ -95,7 +95,7 @@ int main()
 {
 	std::cout << "Enter your age: ";
 	int age;
-	std::cin >> age; // Példaként a felhasználó megad 56-ot.
+	std::cin >> age; // Példaként a felhasználó 56-ot ad meg.
 
 	std::cout << "Now enter your full name: ";
 	std::string name;
