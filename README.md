@@ -62,11 +62,11 @@ str6[0] = 'B'; // str6 most "Best String"
  ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Tagfüggvények.
-**Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: object.Function_Name(arguments)**    
-**Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.**
+Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: object.Function_Name(arguments)    
+Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.
 
 **Length** tagfüggvény.    
-Ez a tagfüggvény visszatér a stringben lévő karakterek számával.
+*Ez a tagfüggvény visszatér a stringben lévő karakterek számával.*
 
 ```cpp
 std::string str7 = "hello";
@@ -76,7 +76,7 @@ std::cout << "str7: " << str7 << " | Karakterek szama: " << len; // Output: "str
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------- 
 **Replace** tagfüggvény.    
-Kicseréli egy std::string általunk megadott részét valami más stringre.
+*Kicseréli egy std::string általunk megadott részét valami más stringre.*
 ```cpp
 std::string str8 = "Soraka is the best champion in League of Legends.";
 str8.replace(0, 6, "Ezreal");
