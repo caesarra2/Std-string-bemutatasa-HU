@@ -27,7 +27,7 @@ char arr[22] = "adc is weak";
 char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------
-String osztállyal egyszerűbb a stringek összefűzése is!
+String classal egyszerűbb a stringek összefűzése is!
 ```cpp
 std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello World my name".
 str4 += " Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
@@ -62,8 +62,8 @@ str6[0] = 'B'; // str6 most "Best String"
  ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Tagfüggvények.
-Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: **object.Function_Name(arguments)**    
-Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.
+Mint tudjuk egy classnak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: **object.Function_Name(arguments)**    
+Ez pontosan így van a stringnél is. Nézzünk meg néhány példát.
 
 **Length** tagfüggvény.    
 *Ez a tagfüggvény visszatér a stringben lévő karakterek számával.*
