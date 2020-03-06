@@ -78,7 +78,7 @@ std::cout << "str7: " << str7 << " | Karakterek szama: " << len; // Output: "str
 Kicseréli egy std::string általunk megadott részét valami más stringre.
 ```cpp
 std::string str8 = "Soraka is the best champion in League of Legends.";
-str8.replace(0, 5, "Ezreal");
+str8.replace(0, 6, "Ezreal");
 std::cout << str8; // Output: "Ezreal is the best champion in League of Legends."
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
