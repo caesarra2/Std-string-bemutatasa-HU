@@ -101,14 +101,14 @@ int main()
 	std::string name;
 	std::getline(std::cin, name);
 
-	std::cout << "Hello " << name << " You are " << age << " years old.\n";
+	std::cout << "Your name is " << name << " and you are " << age << " years old.\n";
 
 	return 0;
 }
 ```    
 A következő outputot kapjuk:    
 `Enter your age: 56`    
-`Now enter your full name: Hello  You are 56 years old.`
+`Now enter your full name: Your name is  and you are 56 years old.`
 
 
 
