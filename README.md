@@ -1,4 +1,4 @@
-# C++ string class alapjainak megismerése.
+# C++ string class használata.
 
 A string class objektjei szöveges adatok tárolására alkalmasak. 
 Használatához a programunk elején includeolnunk kell a string header fájlt(#include \<string\>).
