@@ -9,7 +9,7 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 ## Érték adása az objecteknek, alap műveletek.
 
 String objectnek adhatunk értéket úgy, mintha egy sima változó lenne.
-```cpp
+```c++
 std::string str = "Hello World";
 std::cout << str; // Kiírja, hogy Hello World.
 ```
