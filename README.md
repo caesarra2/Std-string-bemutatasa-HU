@@ -24,7 +24,7 @@ str3 = " test"; // Valid, ilyenkor a már meglévő érték helyett az általunk
 **A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.**
 ```C
 char arr[22] = "adc is weak";
-char arr2[20] = arr; // Error. C stílusban saját megunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
+char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
  
 **String osztállyal egyszerű a stringek összefűzése is!**
