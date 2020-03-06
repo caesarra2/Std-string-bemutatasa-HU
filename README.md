@@ -62,7 +62,7 @@ str6[0] = 'B'; // str6 most "Best String"
  ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Tagfüggvények.
-Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: object.**Function_Name(arguments)**    
+Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: **object.Function_Name(arguments)**    
 Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.
 
 **Length** tagfüggvény.    
