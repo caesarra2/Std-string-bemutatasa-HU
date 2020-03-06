@@ -8,31 +8,31 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 
 ## Érték adása az objecteknek, alap műveletek.
 
-String objectnek adhatunk értéket úgy, mintha egy sima változó lenne.
+**String objectnek adhatunk értéket úgy, mintha egy sima változó lenne.**
 ```cpp
 std::string str = "Hello World";
 std::cout << str; // Kiírja, hogy Hello World.
 ```
 
-Egy stringet hozzárendelhetünk egy másik stringhez egyszerűen.
+**Egy stringet hozzárendelhetünk egy másik stringhez egyszerűen.**
 ```cpp
 std::string str3 = str2; // Ilyenkor a 'my_string' értékét átmásoltuk 'str2'-be.
 str3 = " test"; // Valid, ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
 ```
 
-A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.
+**A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.**
 ```C
 char arr[22] = "adc is weak";
 char arr2[20] = arr; // Error. C stílusban saját megunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
  
-String osztállyal egyszerű a stringek összefűzése is!
+**String osztállyal egyszerű a stringek összefűzése is!**
 ```cpp
 std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello World my name".
 str4 += " is Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
 ```
 
-Figyeljük meg a következő példát.
+**Figyeljük meg a következő példát.**
 ```C
 char arr3[10] = "ahri"; // OK
 strcat(arr3, " is the best girl."); // Memória probléma.
@@ -42,7 +42,7 @@ Szerencsére a string class okosabb ennél, és amikor szükséges automatikusan
 
 ## String input, elemek elérése, tagfüggvények.
 
-Input beolvasásához, használhatjuk a következőt.
+**Input beolvasásához, használhatjuk a következőt.**
 ```cpp
 std::string str5;
 
@@ -51,15 +51,15 @@ std::cin >> str5; // Ebben az esetben a legelső 'space'-ig megy a cin, és azt 
 std::getline(std::cin, str5); // Teljes sor beolvasása str5-be. Ilyenkor a "newline" karakterig olvasunk be adatot a változónkba.
 ```
 
-Stringünk egyes karaktereihez közvetlenül hozzáférhetünk a [] operátor használatával pont úgy, mintha átlagos tömbbel dolgoznánk.
+**Stringünk egyes karaktereihez közvetlenül hozzáférhetünk a [] operátor használatával pont úgy, mintha átlagos tömbbel dolgoznánk.**
 ```cpp
 std::string str6 = "Test String.";
 std::cout << str6[5]; // Output: S
 str6[0] = 'B'; // str6 most "Best String"
  ```
 
-Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő képp férhetünk hozzá: object.Function_Name(arguments)
-Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.
+**Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő képp férhetünk hozzá: object.Function_Name(arguments)
+Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.**
 
 **Length** tagfüggvény.
 Ez a tagfüggvény visszatér a stringben lévő karakterek számával.
