@@ -124,13 +124,13 @@ Ezért kapjuk azt az outputot amit fentebb láthatunk.
 
 Nézzünk meg két módszert, mellyel javíthatjuk a kódot.    
     
-**Első** módszer: *std::cin.get()* használata.    
+**Első módszer:** *std::cin.get()* használata.    
 
 Rögtön az életkor megkérdezése után kinyerhetjük a nem kívánt 'newline' karaktert az *std::cin.get()* használatával, melyet ha nem látunk el paraméterrel kinyer egy karaktert az input bufferből.    
     
     
     
-**Második** módszer:
+**Második módszer:**
 
 
 
