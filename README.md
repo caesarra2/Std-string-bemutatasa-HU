@@ -86,7 +86,7 @@ std::cout << str8; // Output: "Ezreal is the best champion in League of Legends.
 **FONTOS:** *Az imént megnéztünk néhány tagfüggvényt, viszont létezik ezeken kívül több is, melyeknek ismerete nagyban megkönnyítheti munkánkat. A string class tagfüggvényeit, és a hozzájuk tartozó leírást elérhetjük a következő linken: https://en.cppreference.com/w/cpp/string/basic_string*
 
 
-## Gyakori hiba inputnál, mi történik és hogy javíthatjuk.
+## Gyakori hiba inputnál, mi történik és hogyan javíthatjuk.
 
 **Vizsgáljuk meg az alábbi példakódot.**
 
@@ -120,7 +120,7 @@ A(z) std::getline függvény, ahogy a nevéből is kikövetkeztethető egy sort 
 Ezért kapjuk azt az outputot amit fentebb láthatunk.    
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
+### Probléma megoldása.
 
 
 
