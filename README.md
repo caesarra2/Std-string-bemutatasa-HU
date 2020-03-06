@@ -30,7 +30,7 @@ char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene
 **String osztállyal egyszerű a stringek összefűzése is!**
 ```cpp
 std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello World my name".
-str4 += " is Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
+str4 += " Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 **Figyeljük meg a következő példát.**
