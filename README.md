@@ -88,7 +88,39 @@ std::cout << str8; // Output: "Ezreal is the best champion in League of Legends.
 
 ## Gyakori hiba inputnál, mi történik és hogy javíthatjuk.
 
+**Vizsgáljuk meg a következő példakódot.**
 
+```cpp
+int main() 
+{
+	std::cout << "Enter your age: ";
+	int age;
+	std::cin >> age;
+
+	std::cout << "Now enter your full name: ";
+	std::string name;
+	std::getline(std::cin, name);
+
+	std::cout << "Hello " << name << " You are " << age << " years old.\n";
+
+	return 0;
+}
+```    
+A következő outputot kapjuk:    
+`Enter your age: 56    
+Now enter your full name: Hello  You are 56 years old.`
+
+
+
+
+
+
+
+
+
+
+Enter your age: 56
+Now enter your full name: Hello  You are 56 years old.
 
 
 
