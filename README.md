@@ -8,26 +8,26 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 
 ## Érték adása az objecteknek, alap műveletek.
 ----------------------------------------------------------------------------------------------------------------------------------------
-**String objectnek adhatunk értéket úgy, mintha egy sima változó lenne.**
+String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
 ```cpp
 std::string str = "Hello World";
 std::cout << str; // Kiírja, hogy Hello World.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-**Egy stringet hozzárendelhetünk egy másik stringhez egyszerűen.**
+Egy stringet egyszerűen másolhatunk egy másik stringbe.
 ```cpp
 std::string str2 = " my name";
 std::string str3 = str2; // Ilyenkor a 'my_string' értékét átmásoltuk 'str2'-be.
-str3 = "test"; // Valid, ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
+str3 = "test"; // Ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-**A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.**
+A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.
 ```C
 char arr[22] = "adc is weak";
 char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------
-**String osztállyal egyszerű a stringek összefűzése is!**
+String osztállyal egyszerűbb a stringek összefűzése is!
 ```cpp
 std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello World my name".
 str4 += " Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
