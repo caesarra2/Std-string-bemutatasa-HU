@@ -107,8 +107,8 @@ int main()
 }
 ```    
 A következő outputot kapjuk:    
-`Enter your age: 56    
-Now enter your full name: Hello  You are 56 years old.`
+`Enter your age: 56`    
+`Now enter your full name: Hello  You are 56 years old.`
 
 
 
@@ -119,8 +119,6 @@ Now enter your full name: Hello  You are 56 years old.`
 
 
 
-Enter your age: 56
-Now enter your full name: Hello  You are 56 years old.
 
 
 
