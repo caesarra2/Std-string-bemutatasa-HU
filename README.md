@@ -131,8 +131,7 @@ Rögtön az életkor megkérdezése után kinyerhetjük a nem kívánt 'newline'
     
     
 **Második módszer(Ajánlott ezt használni!):** *std::cin.ignore()* használata, mely kinyer és elvet egy adott számú karaktert az input bufferből.    
-    
-*std::cin.ignore()* függvény két paramétert használ; **count =** hány karaktert nyerjen ki, valamint **delim =** milyen karakternél álljon meg, ha találkozik vele(Ez a karakter is elvetődik).    
+Az *std::cin.ignore()* tagfüggvény két paramétert használ; **count =** hány karaktert nyerjen ki, valamint **delim =** milyen karakternél álljon meg, ha találkozik vele(Ez a karakter is elvetődik).    
     
 A tagfüggvény meghívása jelen esetben hasonlóan nézne ki: **std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');**    
 Az első paraméter, **std::numeric_limits<std::streamsize>::max()** visszaadja az input bufferben lehetséges legtöbb karakter számát.    
