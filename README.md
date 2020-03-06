@@ -58,8 +58,8 @@ std::cout << str6[5]; // Output: S
 str6[0] = 'B'; // str6 most "Best String"
  ```
 
-**Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő képp férhetünk hozzá: object.Function_Name(arguments)
-    Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.**
+**Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő képp férhetünk hozzá: object.Function_Name(arguments)**    
+**Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.**
 
 **Length** tagfüggvény.
 Ez a tagfüggvény visszatér a stringben lévő karakterek számával.
