@@ -16,6 +16,7 @@ std::cout << str; // Kiírja, hogy Hello World.
 
 **Egy stringet hozzárendelhetünk egy másik stringhez egyszerűen.**
 ```cpp
+std::string str2 = " my name";
 std::string str3 = str2; // Ilyenkor a 'my_string' értékét átmásoltuk 'str2'-be.
 str3 = " test"; // Valid, ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
 ```
