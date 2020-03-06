@@ -45,7 +45,7 @@ Szerencsére a string class okosabb ennél, és amikor szükséges automatikusan
 
 ## String input, elemek elérése.
 
-**Input beolvasásához, használhatjuk a következőt.**
+Input beolvasása történhet az alábbi módon:
 ```cpp
 std::string str5;
 
