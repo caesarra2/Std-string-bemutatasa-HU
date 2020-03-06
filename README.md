@@ -49,7 +49,7 @@ Input beolvasása történhet az alábbi módon:
 ```cpp
 std::string str5;
 
-std::cin >> str5; // Ebben az esetben a legelső 'space'-ig megy a cin, és azt olvassuk be str5-be.
+std::cin >> str5; // Ebben az esetben a legelső 'whitespace'-ig megy a cin, és azt olvassuk be str5-be.
 
 std::getline(std::cin, str5); // Teljes sor beolvasása str5-be. Ilyenkor a "newline" karakterig olvasunk be adatot a változónkba.
 ```
