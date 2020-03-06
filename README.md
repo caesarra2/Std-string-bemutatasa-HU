@@ -88,7 +88,7 @@ std::cout << str8; // Output: "Ezreal is the best champion in League of Legends.
 
 ## Gyakori hiba inputnál, mi történik és hogy javíthatjuk.
 
-**Vizsgáljuk meg a következő példakódot.**
+**Vizsgáljuk meg az alábbi példakódot.**
 
 ```cpp
 int main() 
