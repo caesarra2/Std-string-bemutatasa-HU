@@ -43,7 +43,7 @@ Szerencsére a string class okosabb ennél, és amikor szükséges automatikusan
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-## String input, elemek elérése, tagfüggvények.
+## String input, elemek elérése.
 
 **Input beolvasásához, használhatjuk a következőt.**
 ```cpp
@@ -61,6 +61,7 @@ std::cout << str6[5]; // Output: S
 str6[0] = 'B'; // str6 most "Best String"
  ```
 ----------------------------------------------------------------------------------------------------------------------------------------
+## Tagfüggvények.
 **Mint tudjuk egy osztálynak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: object.Function_Name(arguments)**    
 **Ez pontosan így van a string classnál is. Nézzünk meg néhány példát.**
 
