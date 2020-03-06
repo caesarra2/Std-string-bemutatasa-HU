@@ -54,7 +54,7 @@ std::cin >> str5; // Ebben az esetben a legelső 'space'-ig megy a cin, és azt 
 std::getline(std::cin, str5); // Teljes sor beolvasása str5-be. Ilyenkor a "newline" karakterig olvasunk be adatot a változónkba.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-**Stringünk egyes karaktereihez közvetlenül hozzáférhetünk a [] operátor használatával pont úgy, mintha átlagos tömbbel dolgoznánk.**
+Stringünk egyes karaktereihez közvetlenül hozzáférhetünk a **[] operátor** használatával pont úgy, mintha átlagos tömbbel dolgoznánk.
 ```cpp
 std::string str6 = "Test String.";
 std::cout << str6[5]; // Output: S
