@@ -40,6 +40,7 @@ strcat(arr3, " is the best girl."); // Memória probléma.
  ```
 A(z) strcat() függvény megpróbálná mind a 18 karaktert átmásolni az arr3 tömbbe, viszont így már átfutna a szomszédos memóriába.    
 Szerencsére a string class okosabb ennél, és amikor szükséges automatikusan átméretezi a változót amivel dolgozunk, ahogy a fentebbi példákban is láthatjuk.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ## String input, elemek elérése, tagfüggvények.
