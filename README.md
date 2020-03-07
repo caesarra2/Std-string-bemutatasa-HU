@@ -127,9 +127,8 @@ Nézzünk meg két módszert, mellyel javíthatjuk a kódot.
 **Első módszer:** *std::cin.get()* használata.    
 
 Rögtön az életkor megkérdezése után kinyerhetjük a nem kívánt 'newline' karaktert az *std::cin.get()* használatával, melyet ha nem látunk el paraméterekkel kinyer egy karaktert az input bufferből.    
-    
-----------------------------------------------------------------------------------------------------------------------------------------
-    
+ 
+ #
 **Második módszer(Ajánlott ezt használni!):** *std::cin.ignore()* használata, mely kinyer és elvet egy adott számú karaktert az input bufferből.    
 Az *std::cin.ignore()* tagfüggvény két paramétert használ; **count =** hány karaktert nyerjen ki, valamint **delim =** milyen karakternél álljon meg, ha találkozik vele(Ez a karakter is elvetődik).    
     
