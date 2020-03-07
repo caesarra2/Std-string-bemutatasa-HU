@@ -33,7 +33,7 @@ std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello 
 str4 += " Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-**Figyeljük meg a következő példát.**
+**Figyeljük meg a következő példát(C stílusú stringek esetében).**
 ```C
 char arr3[10] = "ahri"; // OK
 strcat(arr3, " is the best girl."); // Memória probléma.
