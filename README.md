@@ -2,7 +2,7 @@
 
 A string class objektjei szöveges adatok tárolására alkalmasak.     
 Használatához a programunk elején includeolnunk kell a string header fájlt(#include \<string\>).    
-A class objektjeit egyszerűbb kezelni, mint a már megszokott C stílusú stringeket(Char tömbök).
+A class objektjeit egyszerűbb kezelni, mint a már megszokott C stílusú stringeket(Char tömbök).    
 Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.    
 (A példákban nem használom a 'using namespace std;' utasítást.)
 
