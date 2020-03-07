@@ -7,7 +7,7 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 (A példákban nem használom a 'using namespace std;' utasítást.)
 
 ## Érték adása az objecteknek, alap műveletek.
-****
+----------------------------------------------------------------------------------------------------------------------------------------
 String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
 ```cpp
 std::string str = "Hello World";
