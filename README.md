@@ -8,13 +8,13 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 
 ## Érték adása az objecteknek, alap műveletek.
 ----------------------------------------------------------------------------------------------------------------------------------------
-String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
+-String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
 ```cpp
 std::string str = "Hello World";
 std::cout << str; // Kiírja, hogy Hello World.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-Egy stringet egyszerűen másolhatunk egy másik stringbe.
+- Egy stringet egyszerűen másolhatunk egy másik stringbe.
 ```cpp
 std::string str2 = " my name";
 std::string str3 = str2; // Ilyenkor az 'str2' értékét átmásoltuk 'str3'-ba.
