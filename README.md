@@ -66,7 +66,7 @@ Mint tudjuk egy classnak lehetnek tagfüggvényei, melyekhez a következő módo
 Ez pontosan így van a stringnél is. Nézzünk meg néhány példát.
 
 **Length** tagfüggvény.    
-*Ez a tagfüggvény visszatér a stringben lévő karakterek számával.*
+*Ez a tagfüggvény visszatér egy stringben lévő karakterek számával.*
 
 ```cpp
 std::string str7 = "hello";
@@ -79,12 +79,23 @@ std::cout << "str7: " << str7 << " | Karakterek szama: " << len; // Output: "str
 *Kicseréli egy std::string általunk megadott részét valami más stringre.*
 ```cpp
 std::string str8 = "Soraka is the best champion in League of Legends.";
-str8.replace(0, 6, "Ezreal");
+str8.replace(0, 6, "Ezreal");    
+
 std::cout << str8; // Output: "Ezreal is the best champion in League of Legends."
 ```
-----------------------------------------------------------------------------------------------------------------------------------------
-**FONTOS:** *Az imént megnéztünk néhány tagfüggvényt, viszont létezik ezeken kívül több is, melyeknek ismerete nagyban megkönnyítheti munkánkat. A string class tagfüggvényeit, és a hozzájuk tartozó leírást elérhetjük a következő linken: https://en.cppreference.com/w/cpp/string/basic_string*
+**Erase** tagfüggvény.
+*Kitöröl egy általunk megadott részletet egy stringből.*
+```cpp
+std::string str9 = "I like eating grass!";
+str9.erase(14, 2);
 
+std::cout << str9; // Igen, pontosan az az output amire gondolsz.
+```
+
+----------------------------------------------------------------------------------------------------------------------------------------
+**FONTOS:** *Az imént megnéztünk néhány tagfüggvényt, viszont létezik ezeken kívül több is, melyeknek ismerete nagyban megkönnyítheti munkánkat. A string class tagfüggvényeit, és a hozzájuk tartozó leírást elérhetjük a következő linken: https://en.cppreference.com/w/cpp/string/basic_string*    
+    
+***Megjegyzés:*** *Számos tagfüggvény rendelkezik több túlterhelt változattal is, tehát gondosan figyeljünk oda, hogy milyen paraméterekkel látjuk el a függvényünket.*
 
 ## Gyakori nemkívánatos esemény inputnál, mi történik és hogyan javíthatjuk.
 
