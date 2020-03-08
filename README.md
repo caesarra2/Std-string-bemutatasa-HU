@@ -1,7 +1,7 @@
 # C++ string class használata.
 
 A string class objektjei szöveges adatok tárolására alkalmasak.     
-Használatához a programunk elején includeolnunk kell a string header fájlt(#include \<string\>).    
+Használatához a programunk elején includeolnunk kell a string header fájlt(**#include \<string\>**).    
 A class objektjeit egyszerűbb kezelni, mint a már megszokott C stílusú stringeket(Char tömbök).    
 Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.    
 (A példákban nem használom a 'using namespace std;' utasítást.)
@@ -137,7 +137,7 @@ Az első paraméter, **std::numeric_limits\<std::streamsize\>::max()** visszaadj
     
 Tehát a második módszerrel azt az utasítást adjuk, hogy dobjon el minden karaktert az input bufferből a következő 'newline' karakterig.    
      
-**Megjegyzés:** Ahhoz, hogy tudjuk használni a második módszert ezekkel a paraméterekkel includeolnunk kell a limits header fájlt(#include \<limits\>)!
+**Megjegyzés:** Ahhoz, hogy tudjuk használni a második módszert ezekkel a paraméterekkel includeolnunk kell a limits header fájlt(**#include \<limits\>**)!
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
