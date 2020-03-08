@@ -23,7 +23,7 @@ str3 = "test"; // Ilyenkor a már meglévő érték helyett az általunk megadot
 ----------------------------------------------------------------------------------------------------------------------------------------
 A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.
 ```C
-char arr[22] = "adc is weak";
+char arr[20] = "adc is weak";
 char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------
