@@ -123,7 +123,7 @@ A következő outputot kapjuk:
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Kódunkban a(z) std::cin az első értékig nyer ki adatot, ami jelen esetben '56'. Ezt az 'age' változóban tároljuk.    
-A probléma akkor adódik, amikor az életkor megadásnál a felhasználó entert nyom. Ilyenkor az úgynevezett input bufferbe kerül egy 'newline' karakter is, melyet jelen esetben figyelmen kívül hagy az std::cin.
+A probléma akkor adódik, amikor az életkor megadásnál a felhasználó entert nyom. Ilyenkor az úgynevezett input bufferbe kerül egy 'newline' karakter is, melyet jelen esetben figyelmen kívül hagyunk.
 
 Ezután megpróbálnánk megkérdezni a felhasználótól a nevét.    
 A(z) std::getline függvény, ahogy a nevéből is kikövetkeztethető egy sort olvas be, tehát egészen addig nyer ki adatot amíg el nem ér egy 'newline' karakterig. Mivel az életkor bekérése óta még mindíg szerepel egy 'newline' karakter az input bufferben ezért az std::getline úgy értelmezi, hogy már el is ért a sor végéhez, tehát a stringünk üres lesz.    
