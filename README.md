@@ -95,7 +95,7 @@ std::cout << str9; // Igen, pontosan az az output amire gondolsz.
 ----------------------------------------------------------------------------------------------------------------------------------------
 **FONTOS:** *Az imént megnéztünk néhány tagfüggvényt, viszont létezik ezeken kívül több is, melyeknek ismerete nagyban megkönnyítheti munkánkat. A string class tagfüggvényeit, és a hozzájuk tartozó leírást elérhetjük a következő linken: https://en.cppreference.com/w/cpp/string/basic_string*    
     
-***Megjegyzés:*** *Számos tagfüggvény rendelkezik több túlterhelt változattal is, tehát gondosan figyeljünk oda, hogy milyen paraméterekkel látjuk el a függvényünket.*
+***Megjegyzés:*** *Számos tagfüggvény rendelkezik több túlterhelt változattal is, tehát gondosan figyeljünk arra, hogy milyen paraméterekkel látjuk el a függvényünket.*
 
 ## Gyakori nemkívánatos esemény inputnál, mi történik és hogyan javíthatjuk.
 
