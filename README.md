@@ -17,7 +17,7 @@ std::cout << str; // Kiírja, hogy Hello World.
 Egy stringet egyszerűen másolhatunk egy másik stringbe.
 ```cpp
 std::string str2 = " my name";
-std::string str3 = str2; // Ilyenkor a 'my_string' értékét átmásoltuk 'str2'-be.
+std::string str3 = str2; // Ilyenkor az 'str2' értékét átmásoltuk 'str3'-ba.
 str3 = "test"; // Ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
