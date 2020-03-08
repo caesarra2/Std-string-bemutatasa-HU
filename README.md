@@ -83,7 +83,7 @@ str8.replace(0, 6, "Ezreal");
 
 std::cout << str8; // Output: "Ezreal is the best champion in League of Legends."
 ```
-**Erase** tagfüggvény.
+**Erase** tagfüggvény.    
 *Kitöröl egy általunk megadott részletet egy stringből.*
 ```cpp
 std::string str9 = "I like eating grass!";
