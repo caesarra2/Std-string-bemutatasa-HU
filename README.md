@@ -122,7 +122,7 @@ A következő outputot kapjuk:
 `Now enter your full name: Your name is  and you are 56 years old.`
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-Kódunkban a(z) std::cin az első értékig nyer ki adatot, ami jelen esetben '56'. Ezt az 'age' változóba tároljuk.    
+Kódunkban a(z) std::cin az első értékig nyer ki adatot, ami jelen esetben '56'. Ezt az 'age' változóban tároljuk.    
 A probléma akkor adódik, amikor az életkor megadásnál a felhasználó entert nyom. Ilyenkor az úgynevezett input bufferbe kerül egy 'newline' karakter is, melyet jelen esetben figyelmen kívül hagy az std::cin.
 
 Ezután megpróbálnánk megkérdezni a felhasználótól a nevét.    
