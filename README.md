@@ -8,7 +8,7 @@ Tekinthetünk a class objektjeire úgy, mintha sima változók lennének.
 
 ## Érték adása az objecteknek, alap műveletek.
 ----------------------------------------------------------------------------------------------------------------------------------------
--String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
+- String objecteknek adhatunk értéket úgy, mintha egy sima változók lennének.
 ```cpp
 std::string str = "Hello World";
 std::cout << str; // Kiírja, hogy Hello World.
@@ -21,13 +21,13 @@ std::string str3 = str2; // Ilyenkor az 'str2' értékét átmásoltuk 'str3'-ba
 str3 = "test"; // Ilyenkor a már meglévő érték helyett az általunk megadottat fogja tárolni.
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
-A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.
+- A már jól ismert C stílusú char tömbökkel ezt megvalósítani kicsit több munka.
 ```C
 char arr[20] = "adc is weak";
 char arr2[20] = arr; // Error. C stílusú stringeknél saját magunknak kellene átmásolni az értékel például egy strcpy() függvénnyel. 
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------
-String classal egyszerűbb a stringek összefűzése is!
+- String classal egyszerűbb a stringek összefűzése is!
 ```cpp
 std::string str4 = str + str2; // str4 jelenleg a következőt tárolja: "Hello World my name".
 str4 += " Jeff."; // str4 string végéhez hozzácsatoltunk még szöveget.
@@ -45,7 +45,7 @@ Szerencsére a string class okosabb ennél, és amikor szükséges automatikusan
 
 ## String input, elemek elérése.
 
-Input beolvasása történhet az alábbi módon:
+- Input beolvasása történhet az alábbi módon:
 ```cpp
 std::string str5;
 
@@ -65,7 +65,7 @@ str6[0] = 'B'; // str6 most "Best String"
 Mint tudjuk egy classnak lehetnek tagfüggvényei, melyekhez a következő módon férhetünk hozzá: **object.Function_Name(arguments)**    
 Ez pontosan így van a stringnél is. Nézzünk meg néhány példát.
 
-**Length** tagfüggvény.    
+- **Length** tagfüggvény.    
 *Ez a tagfüggvény visszatér egy stringben lévő karakterek számával.*
 
 ```cpp
@@ -75,7 +75,7 @@ int len = str7.length();
 std::cout << "str7: " << str7 << " | Karakterek szama: " << len; // Output: "str7: hello | Karakterek szama: 5"
  ```
 ---------------------------------------------------------------------------------------------------------------------------------------- 
-**Replace** tagfüggvény.    
+- **Replace** tagfüggvény.    
 *Kicseréli egy std::string általunk megadott részét valami más stringre.*
 ```cpp
 std::string str8 = "Soraka is the best champion in League of Legends.";
@@ -83,7 +83,7 @@ str8.replace(0, 6, "Ezreal");
 
 std::cout << str8; // Output: "Ezreal is the best champion in League of Legends."
 ```
-**Erase** tagfüggvény.    
+- **Erase** tagfüggvény.    
 *Kitöröl egy általunk megadott részletet egy stringből.*
 ```cpp
 std::string str9 = "I like eating grass!";
